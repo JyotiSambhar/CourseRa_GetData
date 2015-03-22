@@ -1,0 +1,107 @@
+Data in tidydata.txt represents data collected from the accelerometers and gyrodcope from the Samsung Galaxy S smartphone on group of 30 volunteers within an age bracket of 19-48 years. There are 88 vaiables for 180 observations.
+Each observation represent average of STD and Mean of the features from the accelerometer and gyroscope 3-axial raw signals for each subject and each activity.
+Raw Data
+	 Three sets of entities - subjects, activities, and readings were used to get the tidy data that represents a summary value (mean) of various features.
+	 Only the features involving the standard deviation and the mean are used in creating the tidy data.
+Brief Description of Data
+	SUBJECT - First column in Tidydata (Subject) identifies the volunteer.
+	
+	ACTIVITY - Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) . Second column in Tidydata represent the activity performed by the Subject.
+	
+	Rest of the columns are features from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. Refer below information for naming convention used to lable columns.
+	
+	The time domain signals  vs Frequency Domain signal(prefix 't' to denote time, 'f' indicate frequency domain signals).	
+	The acceleration signal is separated inot body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ).
+	The body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). 
+	The magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+	A Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (note 'f' as prefix to denote frequency domain signal)
+	'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+	
+	Below are the column lables
+	
+	tBodyAcc-std()-X
+	tBodyAcc-std()-Y
+	tBodyAcc-std()-Z
+	tGravityAcc-std()-X
+	tGravityAcc-std()-Y
+	tGravityAcc-std()-Z
+	tBodyAccJerk-std()-X
+	tBodyAccJerk-std()-Y
+	tBodyAccJerk-std()-Z
+	tBodyGyro-std()-X
+	tBodyGyro-std()-Y
+	tBodyGyro-std()-Z
+	tBodyGyroJerk-std()-X
+	tBodyGyroJerk-std()-Y
+	tBodyGyroJerk-std()-Z
+	tBodyAccMag-std()
+	tGravityAccMag-std()
+	tBodyAccJerkMag-std()
+	tBodyGyroMag-std()
+	tBodyGyroJerkMag-std()
+	fBodyAcc-std()-X
+	fBodyAcc-std()-Y
+	fBodyAcc-std()-Z
+	fBodyAccJerk-std()-X
+	fBodyAccJerk-std()-Y
+	fBodyAccJerk-std()-Z
+	fBodyGyro-std()-X
+	fBodyGyro-std()-Y
+	fBodyGyro-std()-Z
+	fBodyAccMag-std()
+	fBodyBodyAccJerkMag-std()
+	fBodyBodyGyroMag-std()
+	fBodyBodyGyroJerkMag-std()
+	tBodyAcc-mean()-X
+	tBodyAcc-mean()-Y
+	tBodyAcc-mean()-Z
+	tGravityAcc-mean()-X
+	tGravityAcc-mean()-Y
+	tGravityAcc-mean()-Z
+	tBodyAccJerk-mean()-X
+	tBodyAccJerk-mean()-Y
+	tBodyAccJerk-mean()-Z
+	tBodyGyro-mean()-X
+	tBodyGyro-mean()-Y
+	tBodyGyro-mean()-Z
+	tBodyGyroJerk-mean()-X
+	tBodyGyroJerk-mean()-Y
+	tBodyGyroJerk-mean()-Z
+	tBodyAccMag-mean()
+	tGravityAccMag-mean()
+	tBodyAccJerkMag-mean()
+	tBodyGyroMag-mean()
+	tBodyGyroJerkMag-mean()
+	fBodyAcc-mean()-X
+	fBodyAcc-mean()-Y
+	fBodyAcc-mean()-Z
+	fBodyAcc-meanFreq()-X
+	fBodyAcc-meanFreq()-Y
+	fBodyAcc-meanFreq()-Z
+	fBodyAccJerk-mean()-X
+	fBodyAccJerk-mean()-Y
+	fBodyAccJerk-mean()-Z
+	fBodyAccJerk-meanFreq()-X
+	fBodyAccJerk-meanFreq()-Y
+	fBodyAccJerk-meanFreq()-Z
+	fBodyGyro-mean()-X
+	fBodyGyro-mean()-Y
+	fBodyGyro-mean()-Z
+	fBodyGyro-meanFreq()-X
+	fBodyGyro-meanFreq()-Y
+	fBodyGyro-meanFreq()-Z
+	fBodyAccMag-mean()
+	fBodyAccMag-meanFreq()
+	fBodyBodyAccJerkMag-mean()
+	fBodyBodyAccJerkMag-meanFreq()
+	fBodyBodyGyroMag-mean()
+	fBodyBodyGyroMag-meanFreq()
+	fBodyBodyGyroJerkMag-mean()
+	fBodyBodyGyroJerkMag-meanFreq()
+	angle(tBodyAccMean,gravity)
+	angle(tBodyAccJerkMean),gravityMean)
+	angle(tBodyGyroMean,gravityMean)
+	angle(tBodyGyroJerkMean,gravityMean)
+	angle(X,gravityMean)
+	angle(Y,gravityMean)
+	angle(Z,gravityMean)
